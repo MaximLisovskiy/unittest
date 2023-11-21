@@ -12,9 +12,14 @@
         }
         public static long Calculate(int n, int k)
         {
+            if ( n < 0 || k < 0)
+            {
+                throw new ArgumentException("K and N should be positive numbers");
+            }
+
             if (k > n)
             {
-                throw new ArgumentException("K can not be biiger than N");
+                throw new ArgumentException("K can not be bigger than N");
             }
             long result=Factorial(n)/(Factorial(n-k)*Factorial(k));
             return result;

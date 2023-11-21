@@ -47,7 +47,29 @@ namespace CombinationTest
 
         [Test]
         public void Test7_Throws() {
-            Assert.Throws<ArgumentException>(() => CalculateCombination.Calculate(5, 10));
+           
+            Assert.That(() => CalculateCombination.Calculate(5, 10), Throws.TypeOf<ArgumentException>().With.Message.EqualTo("K can not be bigger than N"));
+
+        }
+
+        [Test]
+        public void Test8_Throws()
+        {
+            Assert.That(() => CalculateCombination.Calculate(-5, 4), Throws.TypeOf<ArgumentException>().With.Message.EqualTo("K and N should be positive numbers"));
+
+        }
+
+        [Test]
+        public void Test9_Throws()
+        {
+            Assert.That(() => CalculateCombination.Calculate(5, -4), Throws.TypeOf<ArgumentException>().With.Message.EqualTo("K and N should be positive numbers"));
+
+        }
+
+        [Test]
+        public void Test10_Throws()
+        {
+            Assert.That(() => CalculateCombination.Calculate(-5, -4), Throws.TypeOf<ArgumentException>().With.Message.EqualTo("K and N should be positive numbers"));
         }
     }
 }
