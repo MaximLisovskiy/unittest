@@ -28,7 +28,24 @@ namespace CombinationTest
         {
             Assert.AreEqual(10, CalculateCombination.Calculate(5, 2));
         }
-     
+
+        [Test]
+        public void Test4()
+        {
+            Assert.AreEqual(120, CalculateCombination.Calculate(10, 7));
+        }
+
+        [Test]
+        public void Test5()
+        {
+            Assert.AreEqual(5005, CalculateCombination.Calculate(15, 9));
+        }
+
+        [Test]
+        public void Test6()
+        {
+            Assert.AreEqual(12, CalculateCombination.Calculate(12, 11));
+        }
 
     }
 }
