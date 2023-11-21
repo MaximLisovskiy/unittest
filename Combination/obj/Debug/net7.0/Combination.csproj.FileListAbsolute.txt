@@ -1,0 +1,11 @@
+E:\Pattern_c#\Combination\Combination\bin\Debug\net7.0\Combination.deps.json
+E:\Pattern_c#\Combination\Combination\bin\Debug\net7.0\Combination.dll
+E:\Pattern_c#\Combination\Combination\bin\Debug\net7.0\Combination.pdb
+E:\Pattern_c#\Combination\Combination\obj\Debug\net7.0\Combination.GeneratedMSBuildEditorConfig.editorconfig
+E:\Pattern_c#\Combination\Combination\obj\Debug\net7.0\Combination.AssemblyInfoInputs.cache
+E:\Pattern_c#\Combination\Combination\obj\Debug\net7.0\Combination.AssemblyInfo.cs
+E:\Pattern_c#\Combination\Combination\obj\Debug\net7.0\Combination.csproj.CoreCompileInputs.cache
+E:\Pattern_c#\Combination\Combination\obj\Debug\net7.0\Combination.dll
+E:\Pattern_c#\Combination\Combination\obj\Debug\net7.0\refint\Combination.dll
+E:\Pattern_c#\Combination\Combination\obj\Debug\net7.0\Combination.pdb
+E:\Pattern_c#\Combination\Combination\obj\Debug\net7.0\ref\Combination.dll
