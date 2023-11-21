@@ -35,17 +35,19 @@ namespace CombinationTest
             Assert.AreEqual(120, CalculateCombination.Calculate(10, 7));
         }
 
+       
+
         [Test]
-        public void Test5()
+        [TestCase(12,12,11)]
+        [TestCase(5005,15,9)]
+        public void Test5And6(int result, int n, int k)
         {
-            Assert.AreEqual(5005, CalculateCombination.Calculate(15, 9));
+            Assert.AreEqual(result, CalculateCombination.Calculate(n, k));
         }
 
         [Test]
-        public void Test6()
-        {
-            Assert.AreEqual(12, CalculateCombination.Calculate(12, 11));
+        public void Test7_Throws() {
+            Assert.Throws<ArgumentException>(() => CalculateCombination.Calculate(5, 10));
         }
-
     }
 }
