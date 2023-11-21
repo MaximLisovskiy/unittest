@@ -16,5 +16,12 @@ namespace CombinationTest
         {
             Assert.AreEqual(1, CalculateCombination.Calculate(1, 1));
         }
+
+        [Test]
+        public void Test2()
+        {
+            Assert.AreEqual(1, CalculateCombination.Calculate(0, 0));
+        }
+
     }
 }
